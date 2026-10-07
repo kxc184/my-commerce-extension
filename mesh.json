@@ -36,6 +36,13 @@
           }
         ]
       }
-    ]
+    ],
+    "responseConfig": {
+      "CORS": {
+        "origin": "*",
+        "methods": ["GET", "POST", "OPTIONS"],
+        "maxAge": 60480
+      }
+    }
   }
 }
